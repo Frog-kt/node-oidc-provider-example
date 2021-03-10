@@ -35,7 +35,7 @@ const oidc = new Provider(
 		clients: [
 			{
 				client_id: "foo",
-				redirect_uris: ["http://574ef0ec9fd0.ngrok.io","localhost:3000"], // using jwt.io as redirect_uri to show the ID Token contents
+				redirect_uris: ["https://574ef0ec9fd0.ngrok.io","localhost:3000"], // using jwt.io as redirect_uri to show the ID Token contents
 				response_types: ["id_token"],
 				grant_types: ["implicit"],
 				token_endpoint_auth_method: "none",
